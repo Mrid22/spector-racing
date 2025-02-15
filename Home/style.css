@@ -1,0 +1,50 @@
+@view-transition {
+  navigation: push;
+}
+
+body {
+  background: #000;
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+nav{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  background: #000;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+#indicator{
+   position: relative;
+   top: 0px;
+   height: 5px;
+   background-color: gold;
+   border-radius: 25px;
+   transition: 0.5s;
+}
+
+#home{
+  color: gold;
+}
